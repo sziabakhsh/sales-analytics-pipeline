@@ -1,0 +1,6 @@
+{
+  "data_file": "data/sales_data.csv",
+  "figures_path": "output/figures/",
+  "results_path": "output/results/",
+  "log_file": "logs/pipeline.log"
+}
