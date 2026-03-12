@@ -1,0 +1,37 @@
+2026-03-12 13:34:43,732 | INFO | Pipeline started
+2026-03-12 13:34:43,732 | INFO | Loading dataset
+2026-03-12 13:34:43,794 | INFO | 
+=== Data Info ===
+None
+2026-03-12 13:34:43,831 | INFO | 
+=== Statistical Summary ===
+          order_id                 date       amount
+count  1000.000000                 1000  1000.000000
+mean    500.500000  2024-07-02 13:26:24   262.231340
+min       1.000000  2024-01-02 00:00:00    21.170000
+25%     250.750000  2024-03-30 00:00:00   144.692500
+50%     500.500000  2024-07-05 00:00:00   267.795000
+75%     750.250000  2024-10-01 06:00:00   378.730000
+max    1000.000000  2024-12-30 00:00:00   499.910000
+std     288.819436                  NaN   135.745965
+2026-03-12 13:34:43,833 | WARNING | 
+=== Missing Values ===
+order_id    0
+date        0
+customer    0
+city        0
+amount      0
+month       0
+dtype: int64
+2026-03-12 13:34:43,834 | INFO | Initial rows: 1000
+2026-03-12 13:34:43,853 | INFO | Rows after cleaning: 1000
+2026-03-12 13:34:43,853 | INFO | Data cleaning completed successfully
+2026-03-12 13:34:43,866 | INFO | Shared metrics computed successfully
+2026-03-12 13:34:43,867 | INFO | Plotting order amount distribution
+2026-03-12 13:34:47,275 | INFO | Amount Distribution chart saved
+2026-03-12 13:34:49,679 | INFO | Sales by City chart saved
+2026-03-12 13:34:50,055 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-12 13:34:50,065 | INFO | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-12 13:34:52,033 | INFO | Monthly Sales Trend chart saved
+2026-03-12 13:34:53,877 | INFO | Top Customers chart saved
+2026-03-12 13:34:53,947 | INFO | Pipeline finished
